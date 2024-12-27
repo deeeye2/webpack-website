@@ -5,3 +5,4 @@ document.addEventListener('DOMContentLoaded', () => {
   appDiv.textContent = 'Hello, Webpack!';
   appDiv.className = 'app';
 });
+
