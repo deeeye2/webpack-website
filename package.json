@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "A simple Webpack project example",
   "scripts": {
-    "start": "webpack serve",
-    "build": "webpack"
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html"
   },
   "dependencies": {},
   "devDependencies": {
