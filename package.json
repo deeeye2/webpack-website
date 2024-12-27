@@ -1,17 +1,17 @@
 {
-  "name": "webpack-website",
+  "name": "webpack-example",
   "version": "1.0.0",
-  "description": "A simple website built using Webpack",
+  "description": "A simple Webpack project example",
   "scripts": {
-    "start": "webpack serve --open",
-    "build": "webpack --mode production"
+    "start": "webpack serve",
+    "build": "webpack"
   },
   "dependencies": {},
   "devDependencies": {
-    "css-loader": "^6.8.1",
-    "style-loader": "^3.3.1",
     "webpack": "^5.97.1",
     "webpack-cli": "^5.0.2",
-    "webpack-dev-server": "^4.15.0"
+    "webpack-dev-server": "^4.15.0",
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.2"
   }
 }
